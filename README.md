@@ -1,5 +1,5 @@
 # scientific-calculator
-# Scientific Calculator 🧮
+# Scientific Calculator 
 
 A sleek, retro-instrument styled scientific calculator built with pure HTML, CSS, and JavaScript. No frameworks, no dependencies, no build tools — just open it in a browser and go.
 
@@ -7,7 +7,7 @@ A sleek, retro-instrument styled scientific calculator built with pure HTML, CSS
 ![No Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
 ![Docker](https://img.shields.io/badge/docker-ready-blue)
 
-## ✨ Features
+##  Features
 
 - **Standard operations** — addition, subtraction, multiplication, division, parentheses, percentages
 - **Scientific functions** — sin, cos, tan (with inverse trig via 2nd), log, ln, square root, cube root, powers (xʸ), factorial (x!), reciprocal (1/x), absolute value, π, e, EXP
@@ -23,7 +23,7 @@ A sleek, retro-instrument styled scientific calculator built with pure HTML, CSS
 
 Pure **HTML, CSS, and JavaScript**. No frameworks, no build step, no external JS libraries.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Run locally
 
@@ -67,7 +67,7 @@ docker stop sc7-calculator
 docker rm sc7-calculator
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 .
 ├── calculator.html # Complete app — markup, styling, and logic
@@ -75,13 +75,13 @@ docker rm sc7-calculator
 └── README.md # This file
 
 
-## 🧠 How It Works
+##  How It Works
 
 - All calculations happen entirely client-side — no data ever leaves your browser
 - Trigonometric functions respect the DEG/RAD mode shown on screen
 - Factorial (x!) computes exact results for whole numbers and uses a Lanczos gamma-function approximation for non-integer inputs
 - Input is tokenized and parsed with a custom recursive-descent parser for safe, predictable evaluation
 
-## 📄 License
+##  License
 
 Feel free to use, modify, and share this project.
